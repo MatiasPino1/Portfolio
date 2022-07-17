@@ -1,10 +1,12 @@
 
-import NavBar from "./components/NavBar"
+import NavBar from "./components/Navbar"
+import Skills from "./components/Skills"
 
 function App() {
   return (
     <>
     <NavBar></NavBar>
+    <Skills/>
     </>
   )
 }
