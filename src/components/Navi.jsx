@@ -1,6 +1,6 @@
 import React from "react";
 import Logo from "../../public/img/logo.png";
-const NavBar = () => {
+const Navi = () => {
   return (
     <>
       <nav class="bg-opacity-0">
@@ -122,4 +122,4 @@ const NavBar = () => {
   );
 };
 
-export default NavBar;
+export default Navi;
