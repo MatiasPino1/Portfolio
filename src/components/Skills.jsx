@@ -10,7 +10,7 @@ import MongoIcon from "../../public/img/icons/mongo.png";
 const Skills = () => {
   return (
     <>
-      <div className="skills" id="skills">
+      <div className="skills pt-10" id="skills">
         <p class="text-5xl font-bold italic text-center mb-10 text-white">Skills</p>
         {/*Html*/}
         <div class="not-prose skills-bg h-100  grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 xl:grid-cols-4  gap-6 flex justify-items-center">

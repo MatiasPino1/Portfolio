@@ -6,7 +6,7 @@ import Email from "../../public/img/email.png";
 export const Projects = () => {
   return (
     <>
-      <div className="min-h-screen">
+      <div className="min-h-screen pt-10">
         <p class="text-5xl font-bold italic text-white mb-10 text-center" id="projects">Projects</p>
         <div className=" flex min-h-screen justify-center">
           <div className=" gap-4 grid-cols-1  ">
