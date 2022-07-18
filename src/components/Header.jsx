@@ -3,7 +3,7 @@ import Robot from "../../public/img/robot.png";
 export const Header = () => {
   return (
     <>
-      <div class="hero min-h-screen">
+      <div class="hero header" id="home">
         <div class="hero-content flex-col lg:flex-row-reverse">
           <img src={Robot} class="h-96 max-w-sm rounded-lg" />
           <div>

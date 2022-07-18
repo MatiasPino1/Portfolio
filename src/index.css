@@ -60,3 +60,13 @@
     
     transition: all 0.3s;
    }
+   html {
+       scroll-behavior: smooth;
+     }
+
+     .header{
+       min-height: 60vh;
+     }
+     .skills{
+       min-height: 70vh;
+     }

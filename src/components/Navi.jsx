@@ -31,6 +31,13 @@ const Navi = () => {
               </div>
               <div class="hidden sm:block sm:ml-6">
                 <div class="flex space-x-4">
+                <a
+                    href="#home"
+                    class="text-gray-300 text-white px-3 py-2 rounded-md text-sm font-medium"
+                    aria-current="page"
+                  >
+                    Home
+                  </a>
                   <a
                     href="#skills"
                     class="text-gray-300 text-white px-3 py-2 rounded-md text-sm font-medium"
