@@ -10,7 +10,7 @@ import MongoIcon from '../../public/img/icons/mongo.png'
 const NavBar = () => {
   return (
     <>
-    <div class="m-10 not-prose grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 xl:grid-cols-4 my-10 gap-6">
+    <div class="not-prose grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 xl:grid-cols-4 my-10 gap-6 justify-center">
       {/*Card Start */}
 
       {/*Html*/}
