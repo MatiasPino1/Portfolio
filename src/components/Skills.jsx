@@ -7,11 +7,11 @@ import JavaScriptIcon from "../../public/img/icons/javascript.png";
 import ViteIcon from "../../public/img/icons/vite.svg";
 import SqlIcon from "../../public/img/icons/mysql.svg";
 import MongoIcon from "../../public/img/icons/mongo.png";
-const NavBar = () => {
+const Skills = () => {
   return (
     <>
-      <div>
-        <p className="text-3xl text-center mb-10">SKILLS</p>
+      <div className="min-h-screen" id="skills">
+        <p class="text-5xl font-bold italic text-center mb-10 text-white">Skills</p>
         {/*Html*/}
         <div class="not-prose skills-bg h-100  grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 xl:grid-cols-4  gap-6 flex justify-items-center">
           {/*Card Start */}
@@ -130,4 +130,4 @@ const NavBar = () => {
   );
 };
 
-export default NavBar;
+export default Skills;

@@ -7,11 +7,11 @@ export const Header = () => {
         <div class="hero-content flex-col lg:flex-row-reverse">
           <img src={Robot} class="h-96 max-w-sm rounded-lg" />
           <div>
-            <h1 class="text-5xl font-bold italic">MATIAS ASENJO </h1>
-            <h3 className="mt-3 text-3xl">Full Stack Web developer</h3>
-            <p class="py-3">
+            <h1 class="mb-4 font-heading font-bold text-white text-6xl sm:text-7xl italic">MATIAS ASENJO </h1>
+            <h3 className="mt-3 text-3xl text-white">Full Stack Web developer</h3>
+            <p class="py-3 text-white mt-3">
               Currently located in Cordoba, Argentina. I am recently graduated
-              from the National Technological University.
+              from the National Technological University with experience building API Rest and React Components.
             </p>
           </div>
         </div>
@@ -19,5 +19,3 @@ export const Header = () => {
     </>
   );
 };
-
-export default Header
