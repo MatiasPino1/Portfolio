@@ -1,20 +1,23 @@
-import React from 'react'
-
-const Header = () => {
+import React from "react";
+import Robot from "../../public/img/robot.png";
+export const Header = () => {
   return (
-   <>
-   <div class="hero min-h-screen bg-base-200">
-  <div class="hero-content flex-col lg:flex-row-reverse">
-    <img src="https://placeimg.com/260/400/arch" class="max-w-sm rounded-lg shadow-2xl" />
-    <div>
-      <h1 class="text-5xl font-bold">Box Office News!</h1>
-      <p class="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-      <button class="btn btn-primary">Get Started</button>
-    </div>
-  </div>
-</div>
-   </>
-  )
-}
+    <>
+      <div class="hero min-h-screen">
+        <div class="hero-content flex-col lg:flex-row-reverse">
+          <img src={Robot} class="h-96 max-w-sm rounded-lg" />
+          <div>
+            <h1 class="text-5xl font-bold italic">MATIAS ASENJO </h1>
+            <h3 className="mt-3 text-3xl">Full Stack Web developer</h3>
+            <p class="py-3">
+              Currently located in Cordoba, Argentina. I am recently graduated
+              from the National Technological University.
+            </p>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+};
 
 export default Header
